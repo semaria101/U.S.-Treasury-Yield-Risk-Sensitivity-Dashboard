@@ -30,3 +30,22 @@ This project analyzes historical U.S. 10-Year Treasury yields and models how cha
 
 ## File Structure
 
+project/
+├── 1_RawData/
+├── 2_Yield_Chart/
+├── 3_Risk_Sensitivity/
+└── README.md
+
+
+## How to Use
+1. Open the Excel workbook.
+2. Review yield data in the RawData tab.
+3. View the Yield_Chart tab for trends.
+4. Adjust the Base Yield in the Risk_Sensitivity tab to see updated price scenarios.
+
+## Future Improvements
+- Add multiple maturity yields (2Y, 5Y, 30Y)
+- Add corporate/muni spread comparison
+- Add VC runway/valuation sensitivity to rates
+- Build Python version using FRED API
+
